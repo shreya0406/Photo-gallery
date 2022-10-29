@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container" align="center">
+
+        <h1>My web page Gallery</h1>
+    <br/>
+
+        <div class="thumbnails">
+            <img onmouseover="preview.src=img1.src" name="img1" src="img/img1.jpg" />
+            <img onmouseover="preview.src=img2.src" name="img2" src="img/img2.jpg" />
+            <img onmouseover="preview.src=img3.src" name="img3" src="img/img3.jpg" />
+            <img onmouseover="preview.src=img4.src" name="img4" src="img/img4.jpg" />
+            <img onmouseover="preview.src=img5.src" name="img5" src="img/img5.jpg" />
+        </div>
+        <br/>
+
+        <div class="preview" align="center">
+            <img name="preview" src="img/img1.jpg" />
+        </div>
+    </div>
+</body>
+</html>
